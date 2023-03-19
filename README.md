@@ -9,3 +9,6 @@ In order to build this docker image you could use buildx:
 
 Default docker port is: 5000
 
+In order to deploy this to Your k3s cluster you can use:
+
+`kubectl apply -f flask-files-resource.yaml`
